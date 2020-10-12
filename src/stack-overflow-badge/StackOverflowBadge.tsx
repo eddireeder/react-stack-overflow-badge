@@ -33,31 +33,27 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
   };
 
   return user !== null ? (
-    <div className="StackOverflowBadge">
-      <div className="profileImage">
-        <img src={user.profile_image} />
-      </div>
+    <a href="#" className="StackOverflowBadge">
+      <img className="profileImage" src={user.profile_image} />
       <div className="reputation">{truncate(user.reputation)}</div>
-      <div className="badgeCounts">
-        <div className="gold">
-          <div className="medal"></div>
-          <div className="count">{user.badge_counts.gold}</div>
-        </div>
-        <div className="silver">
-          <div className="medal"></div>
-          <div className="count">{user.badge_counts.silver}</div>
-        </div>
-        <div className="bronze">
-          <div className="medal"></div>
-          <div className="count">{user.badge_counts.bronze}</div>
-        </div>
+      <div className="medalCount gold">
+        <div className="medal"></div>
+        <div className="count">{user.badge_counts.gold}</div>
       </div>
-    </div>
+      <div className="medalCount silver">
+        <div className="medal"></div>
+        <div className="count">{user.badge_counts.silver}</div>
+      </div>
+      <div className="medalCount bronze">
+        <div className="medal"></div>
+        <div className="count">{user.badge_counts.bronze}</div>
+      </div>
+    </a>
   ) : (
     <div></div>
   );
 };
 
-StackOverflowBadge.defaultProps = { id: 1 } as StackOverflowBadgeProps;
+StackOverflowBadge.defaultProps = { id: 2 } as StackOverflowBadgeProps;
 
 export default StackOverflowBadge;
