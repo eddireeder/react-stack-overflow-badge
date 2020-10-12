@@ -37,6 +37,7 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
       className="StackOverflowBadge"
       href={`https://stackoverflow.com/users/${props.id}?tab=profile`}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <img className="profileImage" src={user.profile_image} />
       <div className="reputation">{truncate(user.reputation)}</div>
