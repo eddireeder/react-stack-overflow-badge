@@ -42,7 +42,7 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
       <img
         className="profileImage"
         src={user.profile_image}
-        alt="stack overflow profile image"
+        alt="stack overflow profile"
       />
       <div className="reputation">{truncate(user.reputation)}</div>
       {user.badge_counts.gold > 0 && (
