@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./StackOverflowBadge.css";
+import "./StackOverflowBadge.scss";
 
 type StackOverflowBadgeProps = {
   id?: number;
