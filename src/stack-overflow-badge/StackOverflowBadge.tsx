@@ -22,12 +22,22 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
       });
   }, []);
 
+  const truncate = (number: number): string => {
+    if (number >= 1e6) {
+      return (number / 1e6).toFixed(1) + "m";
+    } else if (number >= 1e3) {
+      return (number / 1e3).toFixed(1) + "k";
+    } else {
+      return number.toString();
+    }
+  };
+
   return user !== null ? (
     <div className="StackOverflowBadge">
       <div className="profileImage">
         <img src={user.profile_image} />
       </div>
-      <div className="reputation">{user.reputation}</div>
+      <div className="reputation">{truncate(user.reputation)}</div>
       <div className="badgeCounts">
         <div className="gold">
           <div className="medal"></div>
