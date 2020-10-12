@@ -20,7 +20,7 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
         setUser(res.data.items[0]);
         console.log(res.data.items[0]);
       });
-  }, []);
+  }, [props.id]);
 
   const truncate = (number: number): string => {
     if (number >= 1e6) {
@@ -33,27 +33,37 @@ const StackOverflowBadge: React.FC<StackOverflowBadgeProps> = (props) => {
   };
 
   return user !== null ? (
-    <a href="#" className="StackOverflowBadge">
+    <a
+      className="StackOverflowBadge"
+      href={`https://stackoverflow.com/users/${props.id}?tab=profile`}
+      target="_blank"
+    >
       <img className="profileImage" src={user.profile_image} />
       <div className="reputation">{truncate(user.reputation)}</div>
-      <div className="medalCount gold">
-        <div className="medal"></div>
-        <div className="count">{user.badge_counts.gold}</div>
-      </div>
-      <div className="medalCount silver">
-        <div className="medal"></div>
-        <div className="count">{user.badge_counts.silver}</div>
-      </div>
-      <div className="medalCount bronze">
-        <div className="medal"></div>
-        <div className="count">{user.badge_counts.bronze}</div>
-      </div>
+      {user.badge_counts.gold > 0 && (
+        <div className="medalCount gold">
+          <div className="medal"></div>
+          <div className="count">{user.badge_counts.gold}</div>
+        </div>
+      )}
+      {user.badge_counts.silver > 0 && (
+        <div className="medalCount silver">
+          <div className="medal"></div>
+          <div className="count">{user.badge_counts.silver}</div>
+        </div>
+      )}
+      {user.badge_counts.bronze > 0 && (
+        <div className="medalCount bronze">
+          <div className="medal"></div>
+          <div className="count">{user.badge_counts.bronze}</div>
+        </div>
+      )}
     </a>
   ) : (
     <div></div>
   );
 };
 
-StackOverflowBadge.defaultProps = { id: 2 } as StackOverflowBadgeProps;
+StackOverflowBadge.defaultProps = { id: 9127393 } as StackOverflowBadgeProps;
 
 export default StackOverflowBadge;

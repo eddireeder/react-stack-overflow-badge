@@ -1,6 +1,5 @@
 .StackOverflowBadge {
-  display: inline-grid;
-  grid-template-columns: repeat(5, auto);
+  display: inline-flex;
   grid-column-gap: 0.6rem;
   align-items: center;
   padding: 0.7rem;
