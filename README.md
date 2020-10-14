@@ -20,19 +20,27 @@ yarn add react-stack-overflow-badge
 
 ## Usage
 
+```tsx
+import StackOverflowBadge from 'react-stack-overflow-badge'
+import 'react-stack-overflow-badge/dist/index.css'
+```
+
 <img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true" height="90">
 
 ```tsx
-import React, { Component } from 'react'
+<StackOverflowBadge id={2937831} />
+```
 
-import StackOverflowBadge from 'react-stack-overflow-badge'
-import 'react-stack-overflow-badge/dist/index.css'
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card.png?raw=true" height="90">
 
-class Example extends Component {
-  render() {
-    return <StackOverflowBadge id={2937831} />
-  }
-}
+```tsx
+<StackOverflowBadge id={2937831} card={false} />
+```
+
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card-no-logo.png?raw=true" height="90">
+
+```tsx
+<StackOverflowBadge id={2937831} card={false} logo={false} />
 ```
 
 ## Props:
