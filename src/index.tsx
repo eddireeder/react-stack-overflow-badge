@@ -1,7 +1,7 @@
 import * as React from 'react'
-const { useState, useEffect } = React
 import './styles.scss'
 import axios from 'axios'
+const { useState, useEffect } = React
 
 interface Props {
   id?: number
@@ -70,19 +70,19 @@ export const StackOverflowBadge = ({ id, card, logo }: Props) => {
       <div className='reputation'>{truncate(user.reputation)}</div>
       {user.badge_counts.gold > 0 && (
         <div className='medalCount gold'>
-          <div className='medal'></div>
+          <div className='medal' />
           <div className='count'>{user.badge_counts.gold}</div>
         </div>
       )}
       {user.badge_counts.silver > 0 && (
         <div className='medalCount silver'>
-          <div className='medal'></div>
+          <div className='medal' />
           <div className='count'>{user.badge_counts.silver}</div>
         </div>
       )}
       {user.badge_counts.bronze > 0 && (
         <div className='medalCount bronze'>
-          <div className='medal'></div>
+          <div className='medal' />
           <div className='count'>{user.badge_counts.bronze}</div>
         </div>
       )}
@@ -110,15 +110,15 @@ export const StackOverflowBadge = ({ id, card, logo }: Props) => {
           />
         </svg>
       )}
-      <div className='profileImage placeholder'></div>
+      <div className='profileImage placeholder' />
       <div className='medalCount'>
-        <div className='medal'></div>
+        <div className='medal' />
       </div>
       <div className='medalCount'>
-        <div className='medal'></div>
+        <div className='medal' />
       </div>
       <div className='medalCount'>
-        <div className='medal'></div>
+        <div className='medal' />
       </div>
     </div>
   )
