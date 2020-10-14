@@ -2,9 +2,10 @@
 
 > React component that displays a Stack Overflow profile in a badge.
 
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="80">
+
 [![NPM](https://img.shields.io/npm/v/react-stack-overflow-badge.svg)](https://www.npmjs.com/package/react-stack-overflow-badge) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/eddireeder/react-stack-overflow-badge.svg?branch=main)](https://travis-ci.org/eddireeder/react-stack-overflow-badge)
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="80">
 
 ---
 
