@@ -1,7 +1,7 @@
 {
   "name": "react-stack-overflow-badge",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "React component that displays a Stack Overflow profile in a badge",
   "author": "eddireeder",
   "license": "MIT",
   "repository": "eddireeder/react-stack-overflow-badge",
