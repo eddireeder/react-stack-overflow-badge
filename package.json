@@ -67,6 +67,10 @@
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
   },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "react": "^16.0.0"
+  },
   "files": [
     "dist"
   ]
