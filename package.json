@@ -2,6 +2,13 @@
   "name": "react-stack-overflow-badge",
   "version": "1.0.1",
   "description": "React component that displays a Stack Overflow profile in a badge",
+  "keywords": [
+    "react",
+    "react-component",
+    "stackoverflow",
+    "profile",
+    "badge"
+  ],
   "author": "eddireeder",
   "license": "MIT",
   "repository": "eddireeder/react-stack-overflow-badge",
