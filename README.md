@@ -6,7 +6,7 @@
 
 ---
 
-## Install
+## 🛠 Install
 
 Using npm:
 ```bash
@@ -18,14 +18,14 @@ Or with yarn:
 yarn add react-stack-overflow-badge
 ```
 
-## Usage
+## 🚀 Usage
 
 ```tsx
 import StackOverflowBadge from 'react-stack-overflow-badge'
 import 'react-stack-overflow-badge/dist/index.css'
 ```
 
-#### Default:
+### Default:
 
 <img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true" height="90">
 
@@ -33,7 +33,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 <StackOverflowBadge id={2937831} />
 ```
 
-#### Remove card:
+### Remove card:
 
 <img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card.png?raw=true" height="90">
 
@@ -41,7 +41,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 <StackOverflowBadge id={2937831} card={false} />
 ```
 
-#### Remove logo:
+### Remove logo:
 
 <img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card-no-logo.png?raw=true" height="90">
 
@@ -49,7 +49,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 <StackOverflowBadge id={2937831} card={false} logo={false} />
 ```
 
-## Props:
+## ⚙️ Props:
 
 | Property               | Type   | Default | Description                       |
 | :--------------------- | :----- | :------ | :---------------------------------|
@@ -57,6 +57,6 @@ import 'react-stack-overflow-badge/dist/index.css'
 | card                   | bool   | `true`  | Display the profile in a card.    |
 | logo                   | bool   | `true`  | Display the Stack Overflow logo.  |
 
-## License
+## 📜 License
 
 MIT © [eddireeder](https://github.com/eddireeder)
