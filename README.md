@@ -11,11 +11,13 @@
 ## 🛠 Install
 
 Using npm:
+
 ```bash
 npm install --save react-stack-overflow-badge
 ```
 
 Or with yarn:
+
 ```bash
 yarn add react-stack-overflow-badge
 ```
@@ -23,7 +25,7 @@ yarn add react-stack-overflow-badge
 ## 🚀 Usage
 
 ```tsx
-import StackOverflowBadge from 'react-stack-overflow-badge'
+import { StackOverflowBadge } from 'react-stack-overflow-badge'
 import 'react-stack-overflow-badge/dist/index.css'
 ```
 
@@ -53,11 +55,11 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ## ⚙️ Props:
 
-| Property               | Type   | Default | Description                       |
-| :--------------------- | :----- | :------ | :---------------------------------|
-| id                     | number | -       | Stack Overflow user ID.           |
-| card                   | bool   | `true`  | Display the profile in a card.    |
-| logo                   | bool   | `true`  | Display the Stack Overflow logo.  |
+| Property | Type   | Default | Description                      |
+| :------- | :----- | :------ | :------------------------------- |
+| id       | number | -       | Stack Overflow user ID.          |
+| card     | bool   | `true`  | Display the profile in a card.   |
+| logo     | bool   | `true`  | Display the Stack Overflow logo. |
 
 ## 📜 License
 
