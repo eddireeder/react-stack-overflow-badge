@@ -1,8 +1,10 @@
 # react-stack-overflow-badge
 
-> Made with create-react-library
+> A React component for displaying your Stack Overflow profile in a badge.
 
 [![NPM](https://img.shields.io/npm/v/react-stack-overflow-badge.svg)](https://www.npmjs.com/package/react-stack-overflow-badge) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+---
 
 ## Install
 
@@ -12,15 +14,17 @@ npm install --save react-stack-overflow-badge
 
 ## Usage
 
+![demo](https://raw.githubusercontent.com/eddireeder/react-stack-overflow-badge/main/example/demo/so.png)
+
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-stack-overflow-badge'
+import StackOverflowBadge from 'react-stack-overflow-badge'
 import 'react-stack-overflow-badge/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <StackOverflowBadge />
   }
 }
 ```
