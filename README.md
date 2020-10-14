@@ -1,6 +1,6 @@
 # react-stack-overflow-badge
 
-> A React component for displaying your Stack Overflow profile in a badge.
+> React component that displays a Stack Overflow profile in a badge.
 
 [![NPM](https://img.shields.io/npm/v/react-stack-overflow-badge.svg)](https://www.npmjs.com/package/react-stack-overflow-badge) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
