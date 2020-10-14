@@ -8,13 +8,19 @@
 
 ## Install
 
+Using npm:
 ```bash
 npm install --save react-stack-overflow-badge
 ```
 
+Or with yarn:
+```bash
+yarn add react-stack-overflow-badge
+```
+
 ## Usage
 
-![demo](https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true)
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true" height="90">
 
 ```tsx
 import React, { Component } from 'react'
@@ -24,10 +30,18 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <StackOverflowBadge />
+    return <StackOverflowBadge id={2937831} />
   }
 }
 ```
+
+## Props:
+
+| Property               | Type   | Default | Description                       |
+| :--------------------- | :----- | :------ | :---------------------------------|
+| id                     | number | -       | Stack Overflow user ID.           |
+| card                   | bool   | `true`  | Display the profile in a card.    |
+| logo                   | bool   | `true`  | Display the Stack Overflow logo.  |
 
 ## License
 
