@@ -14,7 +14,7 @@ npm install --save react-stack-overflow-badge
 
 ## Usage
 
-![demo](https://raw.githubusercontent.com/eddireeder/react-stack-overflow-badge/main/example/demo/so.png)
+![demo](https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true)
 
 ```tsx
 import React, { Component } from 'react'
