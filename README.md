@@ -29,7 +29,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Default:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="90">
 
 ```tsx
 <StackOverflowBadge id={2937831} />
@@ -37,7 +37,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Remove card:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/2.png?raw=true" height="90">
 
 ```tsx
 <StackOverflowBadge id={2937831} card={false} />
@@ -45,7 +45,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Remove logo:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/so-no-card-no-logo.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/3.png?raw=true" height="90">
 
 ```tsx
 <StackOverflowBadge id={2937831} card={false} logo={false} />
