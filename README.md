@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-stack-overflow-badge.svg)](https://www.npmjs.com/package/react-stack-overflow-badge) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="80">
 
 ---
 
@@ -29,7 +29,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Default:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/1.png?raw=true" height="80">
 
 ```tsx
 <StackOverflowBadge id={2937831} />
@@ -37,7 +37,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Remove card:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/2.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/2.png?raw=true" height="80">
 
 ```tsx
 <StackOverflowBadge id={2937831} card={false} />
@@ -45,7 +45,7 @@ import 'react-stack-overflow-badge/dist/index.css'
 
 ### Remove logo:
 
-<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/3.png?raw=true" height="90">
+<img src="https://github.com/eddireeder/react-stack-overflow-badge/blob/main/example/demo/3.png?raw=true" height="80">
 
 ```tsx
 <StackOverflowBadge id={2937831} card={false} logo={false} />
